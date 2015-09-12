@@ -1,0 +1,334 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*start style!*/
+
+.whole{
+	width:1440px;
+}
+
+.navigation{
+	z-index: 200;
+	position:fixed;
+	top:100px;
+	left:20px;
+}
+
+	
+.navimage1,.navimage2,.navimage3,.navimage4,.navimage5,.navimage6{
+	position:relative;
+	width:20px;
+	margin-top:10px;
+}
+
+.navmove{
+	z-index: 210;
+	position:absolute;
+	width:20px;
+	margin-top:10px;
+}
+
+.under{
+	position:fixed;
+	left:50%;
+	margin-left: -100px;
+}
+
+.down{
+	width:100px;
+	z-index: 150;
+	position:absolute;
+	left:46%;
+	bottom: 30px; 
+	opacity: 20%;
+}
+
+#page1{
+
+	width:100%;
+	padding:0px;	
+}
+
+.back1{
+	width:100%;
+	margin: auto;
+	height:100%;
+}
+
+
+.peach{
+	z-index: 100;
+	position:fixed;
+	width:100px;
+	top:55%;
+	left:50%;
+	margin-left:-50px;
+
+}
+
+.layer1{
+	height:1200px;
+}
+
+.back1under{
+	z-index: -10;
+	position:fixed;
+	left:50%;
+	margin-left:-350px;
+
+}
+
+
+#page2{
+	z-index: 90;
+	position:relative;
+	width:100%;
+	margin-top:0px;
+	height:850px;
+    background-color: #27AAE1;
+    border:0px;
+}
+
+#layer1{
+	z-index: 200;
+	position: relative;
+	width:100%;
+
+}
+.article{
+	z-index: 250;
+	position: absolute;
+	width:350px;
+	height:500px;
+	top: 50%;
+	right: 15%;
+	font-size:20;
+	color: yellow;
+}
+.monkey{
+	z-index: 230;
+	position:absolute;
+	top:50%;
+  	left:15%;
+  	margin-top:-324px;
+
+}
+
+#page3{
+	z-index: 30;
+	position:relative;
+	margin-top:0px;
+	width:100%;
+	height:850px;
+    background-color:#1C75BC;
+}
+.page3bg{
+	position: absolute;
+	z-index: 100;
+	width:100%;
+	height:100%;
+    background: url('image/page_3_bg1.png') fixed;
+}
+.bgupper{
+	z-index: 50;
+	position:absolute;
+	bottom:-1227;
+}
+
+.gods{
+	z-index: 160;
+	position: absolute;
+	top: 10%;
+	left: -400px;
+}
+
+.monkeyrun{
+	z-index: 160;
+	width:150px;
+	position: absolute;
+	top:55%;
+	right: -400px;
+}
+
+#page4{
+	z-index: 150;
+	position:relative;
+	margin-top:0px; 
+	width:100%;
+	height:850px;
+    background-color:#F15A29;
+}
+
+.monkeyfly{
+	width:200px;
+	z-index:145;
+	position: absolute;
+	top:30%;
+	left:42%;
+}
+
+.cloud{
+	z-index: 180;
+	position:absolute;
+	top: 30%;
+	left:35%;
+}
+
+.fly{
+	position:absolute;
+	width:150px;
+	top:0;
+	left:45%;
+}
+
+.godking{
+	z-index: 90;
+	position:absolute;
+	width:250px;
+	top:-200px;
+	left:41%;
+}
+#page5{
+	position:relative;
+	width:100%;
+	height:850px;
+	background-color:blue;
+}
+
+#page6{
+	position:relative;
+	width:100%;
+	height:850px;
+	background-color:green;
+}
+
+#little{
+	position: absolute;
+	left:48%;
+	top:40%;
+}
+
+.peachother{
+	width:100px;
+	position: absolute;
+}
+
+#upr{
+	left:20%;
+	top:20%;
+}
+
+#upl{
+	right:20%;
+	top:20%;
+}
+
+#downr{
+	left:28%;
+	bottom:20%;
+}
+
+#downl{
+	right:28%;
+	bottom:20%;
+}
+
+#page7{
+	position:relative;
+	width:100%;
+	height:850px;
+	background-color:yellow;
+}
+
+.anger{
+	position: relative;
+	left:40%;
+}
+
+#page8{
+	position:relative;
+	width:100%;
+	height:850px;
+	background-color:red;
+}
+
+.fight{
+	position: relative;
+	width:200px;
+	left:40%; /*adjust the position*/
+}
+
+#page9{
+	position:relative;
+	width:100%;
+	height:850px;
+	background-color:black;
+}
+
+#page10{
+	position:relative;
+	width:100%;
+	height:850px;
+	background-color:grey;
+}
+
+#page11{
+	position:relative;
+	width:100%;
+	height:850px;
+	background-color:blue;
+}
+
+.loose{
+	position: relative;
+	width:200px;
+	left:35%;
+}
+
+
